@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<collection>
+   <description></description>
+<recipe>
+   <title>Beef</title>
+   <ingredient name='beef steak cube' amount='1.5' unit='pround'/>
+   <ingredient name ='onion' amount='1'/>
+   <preparation>
+      <step>fry</step>
+      <step>add</step>
+   </preparation>
+   <comment>cubeeee</comment>
+   <nutrition calories='1167' fat='23' carbohydrates='32'/>
+</recipe>
+
+<recipe>
+   <title>Pie</title>
+   <ingredient name='beef steak cube' amount='1.5' unit='pround'/>
+   <ingredient name ='egg' amount='12'/>
+   <comment>part of receipt</comment>
+   <nutrition calories='349' fat='18' carbohydrates='64' protain='18'/>
+   </recipe>
+</collection>
+

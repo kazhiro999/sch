@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="no"?>
+
+<volunteerDatabase>
+
+  <person age="31" ssn="046187254">
+     <name>
+        <firstname>Ross</firstname>
+        <lastname>Geller</lastname>
+     </name>
+     <telephone type="landline"> 
+        <number>5534567</number>
+     </telephone>
+     <telephone type="mobile"> 
+        <number>0851234567</number>
+     </telephone>
+  </person>
+  
+  <person age="29" ssn="355817204">
+     <name>
+        <firstname>Chandler</firstname>
+        <firstname>Muriel</firstname>
+        <lastname>Bing</lastname>
+     </name>
+     <telephone type="mobile">
+        <number>0869932617</number>
+     </telephone>
+  </person>
+  
+  <person ssn="778123666">
+     <name>
+        <firstname>Joseph</firstname>
+        <firstname>Francis</firstname>
+        <lastname>Tribbiani</lastname>
+     </name>
+     <telephone type="landline">
+        <number>01628777</number>
+     </telephone>
+  </person>
+  
+</volunteerDatabase>
+
+

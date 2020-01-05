@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE insurancePolicy SYSTEM "insurancePolicy.dtd">
+
+<policyList>
+
+    <insurancePolicy id="9" type="3rd party">
+        <number>2</number>
+        <amount>2000</amount>
+        <description>Some Insurance</description>
+        <carID>09-LD-3400</carID>
+        <expiry>20/02/20</expiry>
+        <date>20/02/19</date>
+
+        <coverageType type="3rd party">
+            <details>Some Insurance</details>
+        </coverageType>
+
+        <renewal>
+            <amount>2000</amount>
+            <customerID>12345</customerID>
+            <accept>Y</accept>
+        </renewal>
+
+    </insurancePolicy>
+
+    <insurancePolicy id="11" type="full">
+        <number>99</number>
+        <amount>3000</amount>
+        <description>Some more Insurance</description>
+        <carID>191/D/23</carID>
+        <expiry>13/10/20</expiry>
+        <date>13/10/19</date>
+
+        <coverageType type="full">
+            <details>Some more Insurance</details>
+        </coverageType>
+
+        <renewal>
+            <amount>3000</amount>
+            <customerID>53423</customerID>
+            <accept>Y</accept>
+        </renewal>
+
+    </insurancePolicy>
+
+</policyList>

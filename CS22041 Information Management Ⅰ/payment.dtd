@@ -1,0 +1,11 @@
+<!DOCTYPE payment [
+
+<!ELEMENT payment (bill, description, customerID, bankDetails, date)>
+<!ATTLIST payment id CDATA #REQUIRED>
+<!ATTLIST payment type CDATA ("Cash" | "Debit Card" | "Credit Card" | "Cheque")>
+
+<!ELEMENT bill (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT customerID (#PCDATA)>
+<!ELEMENT bankDetails (#PCDATA)>
+<!ELEMENT date (#PCDATA)>

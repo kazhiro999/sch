@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"?>
+<breakfast_menu>
+   <food calories='650'>
+      <name>Belgian Waffles</name>
+      <price>5.95</price>
+      <description>Belgian Waffles</description>
+   </food>
+   
+   <food>
+      <name>strawberry Belgian Waffles</name>
+      <price>7.95</price>
+      <description>waffles</description>
+      <description>cream</description>
+   </food>
+   
+   <food calories='900'>
+      <name>Berry-Berry Belgian Waffles</name>
+      <price>8.95</price>
+   </food>
+   
+   <food calories='600'>
+      <name>French Toast</name>
+      <price>4.5</price>
+      <description>toast</description>
+   </food>
+</breakfast_menu>

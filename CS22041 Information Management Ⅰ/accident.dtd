@@ -1,0 +1,18 @@
+<!DOCTYPE accident [
+
+<!ELEMENT accident (date, time, location, type, claim)>
+<!ATTLIST accident type CDATA #REQUIRED>
+
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+
+<!ELEMENT claim (date, accept, payout?)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT accept (#PCDATA)>
+
+<!ELEMENT payout (amount, bankDetails, customerID, date)>
+<!ELEMENT amount (#PCDATA)>
+<!ELEMENT bankDetails (#PCDATA)>
+<!ELEMENT customerID (#PCDATA)>
+<!ELEMENT date (#PCDATA)>

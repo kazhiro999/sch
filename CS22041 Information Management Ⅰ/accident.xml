@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE accident SYSTEM "accident.dtd">
+<accidentList>
+
+    <accident type="brutal">
+        <date>11/11/19</date>
+        <time>13:55</time>
+        <location>in town</location>
+
+        <claim>
+            <date>11/11/19</date>
+            <accept>Y</accept>
+
+            <payout>
+                    <amount>2000</amount>
+                    <bankDetails>bigBank</bankDetails>
+                    <customerID>53421</customerID>
+                    <date>11/11/19</date>
+            </payout>
+        </claim>
+    </accident>
+
+    <accident type="could be worse">
+        <date>11/03/19</date>
+        <time>17:05</time>
+        <location>far far away</location>
+
+        <claim>
+            <date>11/03/19</date>
+            <accept>N</accept>
+
+            <payout>
+                    <amount>200</amount>
+                    <bankDetails>ittyBittyBank</bankDetails>
+                    <customerID>12345</customerID>
+                    <date>11/03/19</date>
+            </payout>
+        </claim>
+    </accident>
+
+</accidentList>

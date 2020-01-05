@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="no"?>
+<DoctorDirectory>
+
+<doctor area="Dublin" medicalregnumber="123456">
+  <name>
+    <firstname>James</firstname>
+    <lastname>Murphy</lastname>
+  </name>
+  <telephone Type="mobile">
+    <number>0871234567</number>
+  </telephone>
+</doctor>
+
+<doctor area="Kildare" medicalregnumber="789112">
+  <name>
+    <firstname>Freda</firstname>
+    <lastname>Anne</lastname>
+    <lastname>Hartigan</lastname>
+  </name>
+  <telephone Type="mobile">
+    <number>0879922345</number>
+  </telephone>
+  <telephone Type="Landline">
+    <number>045865768</number>
+  </telephone>
+</doctor>
+
+<doctor medicalregnumber="223445">
+  <name>
+    <firstname>Francies</firstname>
+    <lastname>Mary</lastname>
+    <lastname>Kelly</lastname>
+  </name>
+  <telephone Type="Landline">
+    <number>04487994</number>
+  </telephone>
+</doctor>
+
+</DoctorDirectory>

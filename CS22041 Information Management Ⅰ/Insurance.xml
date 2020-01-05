@@ -1,0 +1,123 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE carInsurance SYSTEM "Insurance.dtd">
+<carInsurance>
+
+    <customer>
+        <id> </id>
+        <mobile> </mobile>
+        <email> </email>
+        <address> </address>
+        <password> </password>
+        <username> </username>
+        <name> </name>
+        <car>
+            <age> </age>
+            <make> </make>
+            <model> </model>
+            <description> </description>
+            <registrationNum> </registrationNum>
+
+            <driver>
+                <name> </name>
+                <licenceNum> </licenceNum>
+                <mobile> </mobile>
+                <email> </email>
+                <address> </address>
+            </driver>
+
+        </car>
+    </customer>
+
+
+    <insuranceBroker>
+        <id> </id>
+        <phone> </phone>
+        <email> </email>
+        <password> </password>
+        <username> </username>
+        <name> </name>
+    </insuranceBroker>
+
+
+    <agency>
+        <phone> </phone>
+        <email> </email>
+        <adress> </adress>
+        <website> </website>
+        <name> </name>
+
+            <actuary>
+                <id> </id>
+                <company> </company>
+                <amount> </amount>
+                <quote>
+                    <amount> </phone>
+                    <accept> </email>
+
+                    <noClaimsBonus>
+                        <length> </length>
+                        <discount> </discount>
+                        <valid> </valid>
+                    </noClaimsBonus>
+
+                </quote>
+            </actuary>
+
+    </agency>
+
+
+    <payment>
+        <id> </id>
+        <bill> </bill>
+        <type> </type>
+        <description> </desription>
+        <customerID> </customerID>
+        <bankDetails> </bankDetails>
+        <date> </date>
+    </payment>
+
+
+    <insurancePolicy>
+        <id> </id>
+        <number> </number>
+        <type> </type>
+        <amount> </amount>
+        <description> </description>
+        <carID> </carID>
+        <expiry> </expiry>
+        <date> </date>
+
+        <coverageType>
+            <type> </type>
+            <details> </details>
+        </coverageType>
+
+        <renewal>
+            <amount> </amount>
+            <customerID> </customerID>
+            <accept> </accept>
+        </renewal>
+
+        <accident>
+            <date> </date>
+            <time> </time>
+            <location> </location>
+            <type> </type>
+
+            <claim>
+                <date> </date>
+                <accept> </accept>
+
+                    <payout>
+                        <amount> </amount>
+                        <bankDetails> </bankDetails>
+                        <customerID> </customerID>
+                        <date> </date>
+                    </payout>
+            </claim>
+
+        </accident>
+
+    </insurancePolicy>
+
+</carInsurance>

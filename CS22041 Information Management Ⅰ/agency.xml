@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE agency SYSTEM "agency.dtd">
+<agencyList>
+    <agency>
+        <phone>0859090909</phone>
+        <email>AXA@ins.com</email>
+        <adress>AXA HQ London</adress>
+        <website>AXA.com</website>
+        <name>AXA</name>
+
+            <actuary id="0150">
+                <company>AXA</company>
+                <amount>2000</amount>
+                <quote>
+                    <amount>2000</amount>
+                    <accept>Y</accept>
+
+                    <noClaimsBonus>
+                        <length>2</length>
+                        <discount>350</discount>
+                        <valid>Y</valid>
+                    </noClaimsBonus>
+
+                </quote>
+            </actuary>
+
+    </agency>
+
+    <agency>
+        <phone>0861231234</phone>
+        <email>AA.ins.com</email>
+        <adress>AA HQ Dublin</adress>
+        <website>AA.com</website>
+        <name>AA</name>
+
+            <actuary id="012">
+                <company>AA</company>
+                <amount>450</amount>
+                <quote>
+                    <amount>450</amount>
+                    <accept>N</accept>
+
+                    <noClaimsBonus>
+                        <length>n/a</length>
+                        <discount>n/a</discount>
+                        <valid>n/a</valid>
+                    </noClaimsBonus>
+
+                </quote>
+            </actuary>
+
+    </agency>
+</agencyList>

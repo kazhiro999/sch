@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE customer SYSTEM "Customer.dtd">
+<customerList>
+<customer id="53192">
+    <mobile>0861111112</mobile>
+    <email>sam@email.com</email>
+    <address>dublin 254</address>
+    <password>SamRockz</password>
+    <username>BigBoySam</username>
+    <name>Sam Walsh</name>
+</customer>
+
+<customer id="12345">
+    <mobile>0875555557</mobile>
+    <email>chris@email.com</email>
+    <address>cork 76</address>
+    <password>password</password>
+    <username>ChrissyBoy</username>
+    <name>Chris Staunton</name>
+</customer>
+
+<customer id="69420">
+    <mobile>0874204207</mobile>
+    <email>slayer@email.com</email>
+    <email>eoin@business.com</email>
+    <address>Kildare 1</address>
+    <password>ginger</password>
+    <username>Tortuga</username>
+    <name>Eoin Maguire</name>
+</customer>
+</customerList>

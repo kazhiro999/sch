@@ -1,0 +1,18 @@
+<!DOCTYPE car [
+
+<!ELEMENT car(description, registrationNum, distance, driver+)>
+
+<!ATTLIST name age CDATA #REQUIRED>
+<!ATTLIST name make CDATA #REQUIRED>
+<!ATTLIST name model CDATA #REQUIRED>
+
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT registrationNum (#PCDATA)>
+<!ELEMENT distance (#PCDATA)>
+
+<!ELEMENT driver (name, licenceNum, mobile, email, address)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT licenceNum (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT address (#PCDATA)>

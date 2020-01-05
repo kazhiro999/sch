@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE car SYSTEM "car.dtd">
+<carList>
+<car age="2" make="Tesla" model="Model-S" >
+
+    <description>Red</description>
+    <registrationNum>171-D-12</registrationNum>
+    <distance>2000</distance>
+
+    <driver>
+        <name>Sam Walsh</name>
+        <licenceNum>123</licenceNum>
+        <mobile>0861111112</mobile>
+        <email>sam@email.com</email>
+        <address>Dublin 55</address>
+    </driver>
+
+</car>
+
+<car age="10" make="Mercedes" model="C-class" >
+
+    <description>Silver</description>
+    <registrationNum>09-LD-3400</registrationNum>
+    <distance>10000</distance>
+
+    <driver>
+        <name>Franklin Ume</name>
+        <licenceNum>888</licenceNum>
+        <mobile>0876565656</mobile>
+        <email>frank@email.com</email>
+        <address>Longford 21</address>
+    </driver>
+
+    <driver>
+        <name>Chris Staunton</name>
+        <licenceNum>909</licenceNum>
+        <mobile>0864444444</mobile>
+        <email>chris@email.com</email>
+        <address>Cork 7</address>
+    </driver>
+
+</car>
+</carList>

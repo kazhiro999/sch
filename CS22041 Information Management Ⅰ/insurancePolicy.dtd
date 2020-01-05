@@ -1,0 +1,24 @@
+<!DOCTYPE insurancePolicy [
+
+<!ELEMENT insurancePolicy (number, amount, description, carID, expiry, date, coverageType, renewal)>
+<!ATTLIST insurancePolicy id CDATA #REQUIRED>
+<!ATTLIST insurancePolicy type CDATA #REQUIRED>
+
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT amount (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT carID (#PCDATA)>
+<!ELEMENT expiry (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+
+
+<!ELEMENT coverageType (details)>
+<!ATTLIST coverageType type CDATA #REQUIRED>
+
+<!ELEMENT details (#PCDATA)>
+
+
+<!ELEMENT renewal (amount, customerID, accept)>
+<!ELEMENT amount (#PCDATA)>
+<!ELEMENT customerID (#PCDATA)>
+<!ELEMENT accept (#PCDATA)>

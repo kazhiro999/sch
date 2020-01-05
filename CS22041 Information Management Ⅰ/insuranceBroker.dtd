@@ -1,0 +1,11 @@
+<!DOCTYPE insuranceBroker [
+
+<!ELEMENT insuranceBroker (phone, email, pasword, username, name)>
+
+<!ATTLIST name id CDATA #REQUIRED>
+
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT name (#PCDATA)>

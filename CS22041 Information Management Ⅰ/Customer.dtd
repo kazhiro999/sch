@@ -1,0 +1,13 @@
+
+<!DOCTYPE customer [
+
+<!ELEMENT customer (mobile, email+, address, password, username, name)>
+
+<!ATTLIST name id CDATA #REQUIRED>
+
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT name (#PCDATA)>

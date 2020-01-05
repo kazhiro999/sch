@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE insuranceBroker SYSTEM "insuranceBroker.dtd">
+<brokerList>
+<insuranceBroker id="9">
+    <phone>0859999999</phone>
+    <email>Klaudia@email.com</email>
+    <password>KobiRocks</password>
+    <username>Kobi</username>
+    <name>Klaudia Obieglo</name>
+</insuranceBroker>
+
+<insuranceBroker id="8">
+    <phone>0876666666</phone>
+    <email>kaz@email.com</email>
+    <password>SuperSecret</password>
+    <username>Kaz123</username>
+    <name>Kazuhiro Tobita</name>
+</insuranceBroker>
+</brokerList>

@@ -1,0 +1,89 @@
+<!DOCTYPE carInsurance [
+
+<!ELEMENT customer (id, mobile, email, address, password, username, name, car+)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT car(age, make, model, description, registrationNum, driver+)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT make (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT registrationNum (#PCDATA)>
+<!ELEMENT driver (name, licenceNum, mobile, email, address)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT licenceNum (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+
+<!ELEMENT insuranceBroker (id, phone, email, pasword, username, name)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT agency (phone, email, address, website, name, actuary)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT website (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT actuary (id, company, amount, quote)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT company (#PCDATA)>
+<!ELEMENT amount (#PCDATA)>
+<!ELEMENT quote (amount, accept, noClaimsBonus?)>
+<!ELEMENT amount (#PCDATA)>
+<!ELEMENT accept (#PCDATA)>
+<!ELEMENT noClaimsBonus (length, discount, valid)>
+<!ELEMENT length (#PCDATA)>
+<!ELEMENT discount (#PCDATA)>
+<!ELEMENT valid (#PCDATA)>
+
+<!ELEMENT payment (id, bill, type, description, customerID, bankDetails, date)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT bill (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT customerID (#PCDATA)>
+<!ELEMENT bankDetails (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+
+<!ELEMENT insurancePolicy (id, number, type, amount, description, carID, expiry, date, coverageType, renewal, accident)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT amount (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT carID (#PCDATA)>
+<!ELEMENT expiry (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT coverageType (type, details)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT details (#PCDATA)>
+<!ELEMENT renewal (amount, customerID, accept)>
+<!ELEMENT amount (#PCDATA)>
+<!ELEMENT customerID (#PCDATA)>
+<!ELEMENT accept (#PCDATA)>
+
+<!ELEMENT accident (date, time, location, type, claim)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT claim (date, accept, payout?)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT accept (#PCDATA)>
+<!ELEMENT payout (amount, bankDetails, customerID, date)>
+<!ELEMENT amount (#PCDATA)>
+<!ELEMENT bankDetails (#PCDATA)>
+<!ELEMENT customerID (#PCDATA)>
+<!ELEMENT date (#PCDATA)>

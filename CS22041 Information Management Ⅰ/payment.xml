@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE payment SYSTEM "payment.dtd">
+<payments>
+
+    <payment id="01" type="Cash">
+        <bill>2000</bill>
+        <description>Sam paid 2k for insurance</description>
+        <customerID>53192</customerID>
+        <bankDetails>bigBank</bankDetails>
+        <date>10/11/19</date>
+    </payment>
+
+    <payment id="02" type="Cheque">
+        <bill>54000</bill>
+        <description>yeet</description>
+        <customerID>53200</customerID>
+        <bankDetails>veryBigBank</bankDetails>
+        <date>11/11/19</date>
+    </payment>
+
+    <payment id="02" type="Cash">
+        <bill>450</bill>
+        <description>Mary</description>
+        <customerID>92000</customerID>
+        <bankDetails>piggyBank</bankDetails>
+        <date>16/08/19</date>
+    </payment>
+
+    <payment id="02" type="Credit Card">
+        <bill>900</bill>
+        <description>Fair</description>
+        <customerID>42000</customerID>
+        <bankDetails>bigBank</bankDetails>
+        <date>13/11/19</date>
+    </payment>
+
+
+
+</payments>
