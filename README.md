@@ -1,2 +1,2 @@
-# sch
+# school
 Mainly school assignments 
