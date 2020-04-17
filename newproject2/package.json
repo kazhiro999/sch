@@ -1,0 +1,24 @@
+{
+  "name": "newproject",
+  "version": "0.0.0",
+  "description": "No description",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "devDependencies": {
+    "babel-preset-expo": "^7.0.0"
+  },
+  "dependencies": {
+    "expo": "^36.0.0",
+    "react": "16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.1.tar.gz",
+    "react-native-paper": "3.6.0",
+    "react-native-elements": "latest",
+    "react-rt-chart": "latest",
+    "react-native-chart-kit": "latest",
+    "react-native-svg": "^6.4.1",
+    "react-native-vector-icons": "latest",
+    "@ramotion/react-native-circle-menu": "latest",
+    "react-native-icon-badge": "latest"
+  }
+}
